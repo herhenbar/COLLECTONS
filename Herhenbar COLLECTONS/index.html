@@ -1,110 +1,314 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Herhenbar Premium Collections</title>
-  <link rel="stylesheet" href="collections.css" />
-  <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico" />
-
-  <!-- META PIXEL -->
-  <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1757436611671883');
-  fbq('track', 'PageView');
-  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Herhenbar Premium — The Armonisse Edit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="collections.css">
 </head>
-
 <body>
-  <main class="collections-page">
 
-    <header class="collections-hero">
-      <img src="assets/images/logo_herhenbar.png" alt="Herhenbar Premium" class="brand-logo">
+<header class="masthead">
+  <div class="lockup">
+    <img src="assets/images/logo_herhenbar.png" alt="Herhenbar Premium">
+    <span class="lockup-rule"></span>
+    <span class="armonisse">THE ARMONISSE EDIT</span>
+  </div>
+</header>
 
-      <p class="eyebrow">THE ARMONISSE EDIT</p>
-      <h1>Premium Digital Collections for Elegant Tables</h1>
-      <p class="hero-sub">
-        Curated recipe and pairing collections created to bring flavor, beauty, and refinement to everyday meals and special occasions.
-      </p>
-    </header>
+<main>
 
-    <section class="product-grid">
+  <!-- HERO: use the cinematic image from the approved first mockup -->
+  <section class="collections-carousel">
+  <div class="carousel-viewport">
 
-      <article class="product-card featured">
-        <img src="assets/images/farofa-bundle.png" alt="Farofa Brazil’s Golden Crunch" />
-        <div class="product-content">
-          <span class="tag">Main Bundle</span>
-          <h2>Farofa — Brazil’s Golden Crunch</h2>
-          <p>Our signature toasted cassava collection — bundled with Brazilian Dessert Obsessions included free.</p>
+    <div class="carousel-slide active">
+      <img src="assets/images/carousel-teas.jpg" alt="Luxury Teas">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">Refined Tea Rituals</span>
+        <h2>Luxury Teas</h2>
+        <p>Elegant tea moments, cozy nights and premium rituals worth slowing down for.</p>
+        <a href="#teas-card" class="slide-cta">Discover Luxury Teas</a>
+      </div>
+    </div>
 
-          <div class="price">$19.99</div>
-          <a href="https://payhip.com/b/046Zd" class="product-btn">GET THE GOLDEN CRUNCH</a>
-        </div>
-      </article>
+    <div class="carousel-slide">
+      <img src="assets/images/carousel-farofa.jpg" alt="Farofa — Brazil’s Golden Crunch">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">Brazilian Signature</span>
+        <h2>Farofa — Brazil’s Golden Crunch</h2>
+        <p>The golden finishing touch that brings warmth, texture and a richer table.</p>
+        <a href="#farofa-card" class="slide-cta">Explore Farofa</a>
+      </div>
+    </div>
 
-      <article class="product-card">
-        <img src="assets/images/sea-delight.png" alt="Sea Delight Premium Seafood Recipe Collection" />
-        <div class="product-content">
-          <span class="tag">Seafood</span>
-          <h2>Sea Delight</h2>
-          <p>A premium seafood recipe collection crafted for freshness, elegance, and effortless presentation.</p>
-          <div class="price">$14.99</div>
-          <a href="https://payhip.com/b/VRC4i" class="product-btn">ELEVATE SEAFOOD NIGHT</a>
-        </div>
-      </article>
+    <div class="carousel-slide">
+      <img src="assets/images/carousel-musthave.jpg" alt="5 Must-Have Wine Classics">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">Confident Pairings</span>
+        <h2>5 Must-Have Wine Classics</h2>
+        <p>Five timeless bottles chosen for character, elegance and memorable hosting.</p>
+        <a href="#musthave-card" class="slide-cta">See The Classics</a>
+      </div>
+    </div>
 
-      <article class="product-card">
-        <img src="assets/images/brazilian-dessert-obsessions.png" alt="Brazilian Dessert Obsessions" />
-        <div class="product-content">
-          <span class="tag">Desserts</span>
-          <h2>Brazilian Dessert Obsessions</h2>
-          <p>A premium Brazilian dessert collection. Already included free with the Farofa bundle.</p>
-          <div class="price">$16.99</div>
-          <a href="https://payhip.com/b/fgzxD" class="product-btn">UNLOCK DESSERTS</a>
-        </div>
-      </article>
+    <div class="carousel-slide">
+      <img src="assets/images/carousel-gems.jpg" alt="5 Hidden Gems">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">Alcohol-Free Discoveries</span>
+        <h2>5 Hidden Gems</h2>
+        <p>Distinctive non-alcoholic wines selected for refined gatherings and modern taste.</p>
+        <a href="#gems-card" class="slide-cta">Uncover Hidden Gems</a>
+      </div>
+    </div>
 
-      <article class="product-card">
-        <img src="assets/images/luxury-teas.png" alt="Luxury Teas" />
-        <div class="product-content">
-          <span class="tag">Rituals</span>
-          <h2>Luxury Teas</h2>
-          <p>Elegant tea blends created for comforting moments, refined flavors, and daily rituals.</p>
-          <div class="price">$19.99</div>
-          <a href="https://payhip.com/b/hnQ5N" class="product-btn">CREATE YOUR TEA RITUAL</a>
-        </div>
-      </article>
+    <div class="carousel-slide">
+      <img src="assets/images/carousel-sea.jpg" alt="Sea Delight">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">Coastal Elegance</span>
+        <h2>Sea Delight</h2>
+        <p>Fresh seafood dishes presented with ease, beauty and that polished hosting feel.</p>
+        <a href="#sea-card" class="slide-cta">Enter Sea Delight</a>
+      </div>
+    </div>
 
-      <article class="product-card">
-        <img src="assets/images/wine-euphoria.png" alt="Wine Euphoria" />
-        <div class="product-content">
-          <span class="tag">Wine Pairing</span>
-          <h2>Wine Euphoria</h2>
-          <p>A premium wine pairing guide created to elevate meals, special occasions, and memorable moments.</p>
-          <div class="price">$24.99</div>
-          <a href="https://payhip.com/b/eCRBd" class="product-btn">PAIR WITH CONFIDENCE</a>
-        </div>
-      </article>
+    <button class="carousel-arrow prev" aria-label="Previous slide">&#10094;</button>
+    <button class="carousel-arrow next" aria-label="Next slide">&#10095;</button>
 
-    </section>
+    <div class="carousel-dots">
+      <button class="carousel-dot active" aria-label="Go to slide 1"></button>
+      <button class="carousel-dot" aria-label="Go to slide 2"></button>
+      <button class="carousel-dot" aria-label="Go to slide 3"></button>
+      <button class="carousel-dot" aria-label="Go to slide 4"></button>
+      <button class="carousel-dot" aria-label="Go to slide 5"></button>
+    </div>
 
-    <footer class="collections-footer">
-      <p>Support: <a href="mailto:support@armonisse.com.br">support@armonisse.com.br</a></p>
-      <p>
-        <a href="terms-of-use.html">Terms of Use</a> ·
-        <a href="privacy-policy.html">Privacy Policy</a> ·
-        <a href="refund-policy.html">Refund Policy</a>
-      </p>
-      <p>© 2026 Armonisse — Herhenbar Premium Line. All Rights Reserved.</p>
-    </footer>
+  </div>
+  </section>
 
-  </main>
+  <section class="intro">
+    <div class="intro-title">
+      <span>CURATED DIGITAL COLLECTIONS</span>
+      <h1>Curated Collections.<br><em>Extraordinary Moments.</em></h1>
+    </div>
+    <div class="intro-rule"></div>
+    <p>
+      Thoughtfully created digital collections for food, wine, wellness and the rituals around them —
+      designed to bring beauty, discovery and refinement to everyday life.
+    </p>
+  </section>
+
+  <section class="featured">
+    <div class="featured-books">
+  <img
+    src="assets/images/wines-bundle.jpg"
+    alt="Wine Euphoria Two-Volume Collection"
+  >
+    </div>
+
+    <div class="featured-copy">
+      <span class="kicker">FEATURED COLLECTION</span>
+      <h2>Wine Euphoria</h2>
+      <div class="mini-rule"></div>
+      <p class="caps">THE COMPLETE TWO-VOLUME COLLECTION</p>
+
+      <ul>
+        <li>5 Must-Have Wine Classics <em></em></li>
+        <li>5 Hidden Gems <em>(alcohol-free)</em></li>
+      </ul>
+
+      <div class="buy-row">
+        <strong>US$19.99</strong>
+        <a class="gold-cta" href="#">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 9.1a2 2 0 0 0 2 1.5h7.7a2 2 0 0 0 1.9-1.4L21 7H7.2M10 19a1.5 1.5 0 1 0 0 .01M18 19a1.5 1.5 0 1 0 0 .01"/></svg>
+          EXPLORE THE BUNDLE
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-break">
+    <span>THE HERHENBAR EDIT</span>
+  </div>
+
+  <section class="grid">
+
+<article class="card" id="sea-card">
+      <div class="card-photo"><img src="assets/images/sea-delight.jpg" alt="Sea Delight"></div>
+      <div class="card-body">
+        <span class="number">01</span>
+        <h3>Sea Delight</h3>
+        <p>A premium seafood recipe collection crafted for freshness, elegance and effortless presentation.</p>
+        <strong>US$9.99</strong>
+        <a href="https://payhip.com/b/VRC4i" class="card-cta">
+          <svg viewBox="0 0 24 24"><path d="M3 4h2l2.2 9.1a2 2 0 0 0 2 1.5h7.7a2 2 0 0 0 1.9-1.4L21 7H7.2M10 19a1.5 1.5 0 1 0 0 .01M18 19a1.5 1.5 0 1 0 0 .01"/></svg>
+          VIEW COLLECTION 
+        </a>
+      </div>
+    </article>
+
+<article class="card" id="farofa-card">
+      <div class="card-photo"><img src="assets/images/golden-crunch.jpg" alt="Farofa — Brazil's Golden Crunch"></div>
+      <div class="card-body">
+        <span class="number">02</span>
+        <h3>Farofa</h3>
+        <p>Brazil’s golden crunch, reimagined with bold texture, modern dietary options and unmistakable Brazilian flavor.</p>
+        <strong>US$11.99</strong>
+        <a href="#" class="card-cta">
+          <svg viewBox="0 0 24 24"><path d="M3 4h2l2.2 9.1a2 2 0 0 0 2 1.5h7.7a2 2 0 0 0 1.9-1.4L21 7H7.2M10 19a1.5 1.5 0 1 0 0 .01M18 19a1.5 1.5 0 1 0 0 .01"/></svg>
+          VIEW COLLECTION
+        </a>
+      </div>
+    </article>
+
+<article class="card" id="teas-card">
+      <div class="card-photo"><img src="assets/images/luxury-teas.jpg" alt="Luxury Teas"></div>
+      <div class="card-body">
+        <span class="number">03</span>
+        <h3>Luxury Teas</h3>
+        <p>Premium blends created for moments when you want more than just a cup.</p>
+        <strong>US$10.99</strong>
+        <a href="https://payhip.com/b/hnQ5N" class="card-cta">
+          <svg viewBox="0 0 24 24"><path d="M3 4h2l2.2 9.1a2 2 0 0 0 2 1.5h7.7a2 2 0 0 0 1.9-1.4L21 7H7.2M10 19a1.5 1.5 0 1 0 0 .01M18 19a1.5 1.5 0 1 0 0 .01"/></svg>
+          VIEW COLLECTION
+        </a>
+      </div>
+    </article>
+
+<article class="card" id="musthave-card">
+      <div class="card-photo"><img src="assets/images/wine-euphoria.jpg" alt="5 Must-Have Wine Classics"></div>
+      <div class="card-body">
+        <span class="number">04</span>
+        <h3>5 Must-Have Wine Classics</h3>
+        <p>Five remarkable bottles selected for character, prestige and lasting appeal.</p>
+        <strong>US$11.99</strong>
+        <a href="#" class="card-cta">
+          <svg viewBox="0 0 24 24"><path d="M3 4h2l2.2 9.1a2 2 0 0 0 2 1.5h7.7a2 2 0 0 0 1.9-1.4L21 7H7.2M10 19a1.5 1.5 0 1 0 0 .01M18 19a1.5 1.5 0 1 0 0 .01"/></svg>
+          VIEW COLLECTION
+        </a>
+      </div>
+    </article>
+
+<article class="card" id="gems-card">
+      <div class="card-photo"><img src="assets/images/gems-euphoria.jpg" alt="5 Hidden Gems"></div>
+      <div class="card-body">
+        <span class="number">05</span>
+        <h3>5 Hidden Gems</h3>
+        <p>Organic, non-alcoholic & boutique wines worth discovering.</p>
+        <strong>US$12.99</strong>
+        <a href="#" class="card-cta">
+          <svg viewBox="0 0 24 24"><path d="M3 4h2l2.2 9.1a2 2 0 0 0 2 1.5h7.7a2 2 0 0 0 1.9-1.4L21 7H7.2M10 19a1.5 1.5 0 1 0 0 .01M18 19a1.5 1.5 0 1 0 0 .01"/></svg>
+          VIEW COLLECTION
+        </a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-photo"><img src="assets/images/brazilian-dessert-obsessions.jpg" alt="Brazilian Dessert Obsessions"></div>
+      <div class="card-body">
+        <span class="number">06</span>
+        <h3>Brazilian Dessert Obsessions</h3>
+        <p>A small collection of Brazil’s most addictive desserts — rich, indulgent and surprisingly easy to make.</p>
+        <strong>US$8.99</strong>
+        <a href="https://payhip.com/b/fgzxD" class="card-cta">
+          <svg viewBox="0 0 24 24"><path d="M3 4h2l2.2 9.1a2 2 0 0 0 2 1.5h7.7a2 2 0 0 0 1.9-1.4L21 7H7.2M10 19a1.5 1.5 0 1 0 0 .01M18 19a1.5 1.5 0 1 0 0 .01"/></svg>
+          VIEW COLLECTION
+        </a>
+      </div>
+    </article>
+
+  </section>
+
+</main>
+
+<footer>
+  <img src="assets/images/logo_herhenbar.png" alt="Herhenbar Premium">
+  <nav>
+    <a href="terms-of-use.html">Terms of Use</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="refund-policy.html">Refund Policy</a>
+  </nav>
+  <small>© 2026 Armonisse — Herhenbar Premium Line</small>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const carousel = document.querySelector('.collections-carousel');
+  if (!carousel) return;
+
+  const slides = carousel.querySelectorAll('.carousel-slide');
+  const dots = carousel.querySelectorAll('.carousel-dot');
+  const prevBtn = carousel.querySelector('.carousel-arrow.prev');
+  const nextBtn = carousel.querySelector('.carousel-arrow.next');
+
+  let current = 0;
+  let autoPlay;
+
+  function showSlide(index) {
+    slides[current].classList.remove('active');
+    dots[current].classList.remove('active');
+
+    current = (index + slides.length) % slides.length;
+
+    slides[current].classList.add('active');
+    dots[current].classList.add('active');
+  }
+
+  function nextSlide() {
+    showSlide(current + 1);
+  }
+
+  function prevSlide() {
+    showSlide(current - 1);
+  }
+
+  function startAutoPlay() {
+  clearInterval(autoPlay);
+  autoPlay = setInterval(nextSlide, 7500);
+}
+
+function resetAutoPlay() {
+  startAutoPlay();
+}
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', function () {
+      nextSlide();
+      resetAutoPlay();
+    });
+  }
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', function () {
+      prevSlide();
+      resetAutoPlay();
+    });
+  }
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', function () {
+      showSlide(index);
+      resetAutoPlay();
+    });
+  });
+
+  carousel.addEventListener('mouseenter', function () {
+    clearInterval(autoPlay);
+  });
+
+  carousel.addEventListener('mouseleave', function () {
+    startAutoPlay();
+  });
+
+  startAutoPlay();
+});
+</script>
 </body>
 </html>
