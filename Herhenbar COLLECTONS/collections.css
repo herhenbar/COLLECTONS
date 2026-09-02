@@ -189,7 +189,7 @@ a{color:inherit;text-decoration:none}
 
 .grid{
   width:min(1180px,calc(100% - 64px));
-  margin:0 auto 78px;
+  margin:0 auto 28px;
   display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));
   gap:20px;
@@ -243,15 +243,35 @@ a{color:inherit;text-decoration:none}
 .card-cta:hover{background:var(--gold);color:#101010}
 
 footer{
-  padding:38px 24px 44px;
+  padding:30px 24px 26px;
   text-align:center;
   border-top:1px solid var(--line);
   background:linear-gradient(180deg,#06131d,#02070b);
 }
-footer img{width:130px;margin:0 auto 18px}
-footer nav{display:flex;justify-content:center;gap:22px;flex-wrap:wrap;margin-bottom:14px}
-footer nav a{color:#aaa297;font-size:10px}
-footer small{color:#6f6b65;font-size:9px}
+
+footer img{
+  width:115px;
+  height:auto;
+  margin:0 auto 18px;
+}
+
+footer nav{
+  display:flex;
+  justify-content:center;
+  gap:28px;
+  flex-wrap:wrap;
+  margin-bottom:16px;
+}
+
+footer nav a{
+  color:#c0b7aa;
+  font-size:11px;
+}
+
+footer small{
+  color:#807a72;
+  font-size:10px;
+}
 
 @media(max-width:800px){
   .masthead{height:88px}
@@ -697,4 +717,11 @@ position: relative;
   right: 28px !important;
 }
 
+
+.slide-kicker {
+  color: #e8b84e !important;
+  text-shadow:
+    0 1px 3px rgba(0,0,0,.95),
+    0 2px 12px rgba(0,0,0,.75) !important;
+}
 
