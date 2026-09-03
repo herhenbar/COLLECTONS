@@ -784,3 +784,21 @@ position: relative;
       );
   }
 }
+
+@media (max-width: 768px) {
+  .carousel-viewport{
+    height: 360px !important;
+    min-height: 360px !important;
+    max-height: 360px !important;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .carousel-slide:nth-child(1) img{ object-position: 58% center !important; } /* teas */
+  .carousel-slide:nth-child(2) img{ object-position: 60% center !important; } /* farofa */
+  .carousel-slide:nth-child(3) img{ object-position: 62% center !important; } /* must have */
+  .carousel-slide:nth-child(4) img{ object-position: 66% center !important; } /* gems */
+  .carousel-slide:nth-child(5) img{ object-position: 62% center !important; } /* sea */
+
+}
